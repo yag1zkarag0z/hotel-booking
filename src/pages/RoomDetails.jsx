@@ -163,7 +163,7 @@ const RoomDetails = () => {
               {room.amenities.map((item, index) => (
                 <div
                   key={index}
-                  className="flex items-center gap-2 px-3 py-2 rounded-lg bg-gray-100"
+                  className="flex items-center gap-2 px-3 py-2 rounded-lg bg-blue-500"
                 >
                   <img
                     src={facilityIcons[item]}
@@ -308,3 +308,4 @@ const RoomDetails = () => {
 };
 
 export default RoomDetails;
+
