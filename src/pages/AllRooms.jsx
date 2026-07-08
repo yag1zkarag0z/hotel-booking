@@ -217,7 +217,7 @@ const AllRooms = () => {
                 {room.amenities.map((item, index) => (
                   <div
                     key={index}
-                    className="flex items-center gap-2 px-3 py-2 rounded-lg bg-[#F5F5FF]"
+                    className="flex items-center gap-2 px-3 py-2 rounded-lg bg-blue-500"
                   >
                     <img
                       src={facilityIcons[item]}
