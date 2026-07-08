@@ -27,7 +27,7 @@ const App = () => {
         <div className="loading-card">
           <div className="loading-ring" />
           <h1 className="text-2xl font-semibold tracking-[0.3em] text-white">
-            LUXURY STAY
+             QUICKSTAY
           </h1>
           <p className="mt-3 text-sm text-slate-300">
             Preparing your escape...
